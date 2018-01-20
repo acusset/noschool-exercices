@@ -3,7 +3,6 @@
 let promise = new Promise((resolve, reject) => {
     setTimeout(resolve, 300);
 })
-
-promise.then(() => {
+    .then(() => {
     console.log('ACCOMPLIE !');
 });
